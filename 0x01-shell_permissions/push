@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "file name"
+read y
+chmod +x ${y}
+git add .
+git commit -m"0x01. Shell, permissions"
+git push
