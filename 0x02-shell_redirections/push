@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "enter file name"
+read y
+chmod +x ${y}
+git add .
+git commit -m"0x02.shell redirections"
+git push
+
